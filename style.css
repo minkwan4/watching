@@ -160,8 +160,10 @@ div {
 
 
 .news {
-	margin: 5%;
+	margin: 3%;
 	padding: 0%;
+ padding-top: 1%;
+ padding-bottom: 1%;
 	height: 7vh;
 	display: flex;
 	justify-content: center;
@@ -172,14 +174,16 @@ div {
 }
 
 .news-sub {
-	margin: 5%;
-	padding-left: 5%;
+	margin: 3%;
+	padding-left: 3%;
+ padding-top: 1%;
+ padding-bottom: 1%;
 	height: 5vh;
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	background-color: #000000;
- color:white;
+	background-color: #90EE90;
+ color:black;
  font-size:3vw;
  text-align:left;
 }
@@ -292,7 +296,8 @@ div {
 
 .thumbnail-wrappper { width: 25%; } 
 
-.thumbnail { position: relative; padding-top: 2%;padding-bottom: 2%; /* 1:1 ratio */ overflow: hidden;background-color: #F0E68C; } 
+
+.thumbnail { position: relative; padding-top: 2%;padding-bottom: 2%; /* 1:1 ratio */ overflow: hidden;background-color: #F8F8FF; } 
 
 .thumbnail .centered { position: absolute; top: 0; left: 0; right: 0; bottom: 0; -webkit-transform: translate(50%,50%); -ms-transform: translate(50%,50%); transform: translate(50%,50%); }
 

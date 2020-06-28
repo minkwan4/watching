@@ -70,7 +70,7 @@
     <br> 찬성했지?</span>
   </button>
   <button class=button>
-   <span><a href="index_next8.html">인기투표!<br>KPI평가 </span>
+   <span>인기투표!<br>KPI평가 </span>
   </button>
   <button class=button>
    <span>주목인물1</span>
@@ -88,6 +88,125 @@
  
  
 
+ <!-- 20대 법안 발의율 worst 5 설명,그래프,내용 -->
+ <div class="text0">20대 국회 출석율 WORST! ('16.5/30~'20.3/17)</div>
+ <div class="text1">어디보자!!! 누가 출근 안하냐?
+  <br>이정도 출석율이면 재적 당해야 하는거 아냐?</div>
+ <div class="text1">나는 회사에서 연차 쓰고 싶다!!!!!</div>
+ <div class="text2">[단위:%],
+  <a href="http://www.peoplepower21.org/Politics/1692685" target="_blank">데이터 참조 : 참여연대</a>
+
+ </div>
+ <div class="container">
+  <canvas id="myChart" width="400" height="400"></canvas>
+ </div>
+ <script>
+  var worst = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(worst, {
+   type: 'bar',
+   data: {
+    labels: ['조원진(자)', '서청원(자)', '한선교(미)', '유승민(미)', '김무성(미)', '정재호(더)', '홍문종(친)'],
+    datasets: [{
+     label: '# of Votes',
+     data: [50, 62, 63, 68, 71, 71, 71],
+     backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(255, 159, 64, 0.2)'
+     ],
+     borderColor: [
+      'rgba(255, 99, 132, 1)',
+      'rgba(54, 162, 235, 1)',
+      'rgba(255, 206, 86, 1)',
+      'rgba(75, 192, 192, 1)',
+      'rgba(153, 102, 255, 1)',
+      'rgba(255, 159, 64, 1)'
+     ],
+     borderWidth: 1,
+    }]
+   },
+   options: {
+    scales: {
+     yAxes: [{
+      ticks: {
+       beginAtZero: true,
+       max: 100,
+       min: 0,
+       fontSize: 14
+      }
+     }],
+     xAxes: [{
+      ticks: {
+       fontSize: 14
+      }
+     }]
+    }
+   }
+  });
+ </script>
+
+ <div class="text3">ddd위치확인용ddd</div>
+
+ <!-- 출석율 best,그래프 설명,그래프,내용 -->
+ <div class="text0">20대 국회 출석률 BEST!</div>
+ <div class="text1">올~ 개근상! 근데 아는 이름이 없네요..미안합니다;;;</div>
+ <div class="text1"></div>
+ <div class="text2">[단위:%],
+  <a href="http://www.peoplepower21.org/Politics/1692685" target="_blank">데이터 참조 : 참여연대</a>
+ </div>
+ <div class="container">
+  <canvas id="myChart2" width="400" height="400"></canvas>
+ </div>
+ <script>
+  var best = document.getElementById('myChart2').getContext('2d');
+  var myChart2 = new Chart(best, {
+   type: 'bar',
+   data: {
+    labels: ['김병욱(더)', '김상희(더)', '김영진(더)', '김정우(더)', '박광온(더)', '박찬대(더)', '박홍근(더)', '백혜련(더)', '송기헌(더)', '유동수(더)'],
+    datasets: [{
+     label: '# of Votes',
+     data: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
+     backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(255, 159, 64, 0.2)'
+     ],
+     borderColor: [
+      'rgba(255, 99, 132, 1)',
+      'rgba(54, 162, 235, 1)',
+      'rgba(255, 206, 86, 1)',
+      'rgba(75, 192, 192, 1)',
+      'rgba(153, 102, 255, 1)',
+      'rgba(255, 159, 64, 1)'
+     ],
+     borderWidth: 1,
+    }]
+   },
+   options: {
+    scales: {
+     yAxes: [{
+      ticks: {
+       beginAtZero: true,
+       max: 100,
+       min: 0,
+       fontSize: 16
+      }
+     }],
+     xAxes: [{
+      ticks: {
+       fontSize: 14
+      }
+     }]
+    }
+   }
+  });
+ </script>
 
  <div class="text3">ddd위치확인용ddd</div>
 
