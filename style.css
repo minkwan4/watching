@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+ font-family: 'Do Hyeon', sans-serif;
+}
+
+.text0 {
+ font-size: 3vw;
+ text-align: center;
+ padding: 1vw;
+
+}
+.text1 {
+ font-size: 2.5vw;
+ text-align: center;
+ padding: 1vw;
+}
+.text2 {
+ font-size: 2vw;
+ text-align: center;
+ padding: 1vw;
+}
+.text3 {
+ font-size: 1.5vw;
+ text-align: center;
+ padding: 1vw;
+}
+
+.text01 {
+ font-size: 3vw;
+ text-align: left;
+ padding: 1vw;
+ margin-left:5%;
+}
+.text11 {
+ font-size: 2.5vw;
+ text-align: left;
+ padding: 1vw;
+ margin-left:5%;
+}
+.text21 {
+ font-size: 2vw;
+ text-align: left;
+ padding: 1vw;
+}
+.text31 {
+ font-size: 1.5vw;
+ text-align: left;
+ padding: 1vw;
+}
+
+p {
+ text-align: center;
+}
+div {
+ text-align: center;
+}
+
+.category {
+ text-align: center;
+
+ margin-top: 5vw;
+ margin-left: 30%;
+ margin-bottom: 5vw;
+ width: 40%;
+ padding: 10px 10px 10px 10px;
+ border: 1px solid #bfbfbf;
+
+ background-color: white;
+ box-shadow: 10px 10px 5px #aaaaaa;
+ font-size: 3rem;
+}
+.categorybox {
+ text-align: center;
+
+ padding: 3%;
+ border: 1px solid black;
+ width: 80%;
+ margin: 10%;
+}
+
+.button {
+ text-align: center;
+
+ margin: 2%;
+ border: none;
+ padding: 2%;
+ width: 20%;
+
+ transition: all 0.5s;
+ cursor: pointer;
+
+ display: inline-block;
+ border-radius: 4px;
+ /* background-color: #f4511e; */
+ color: #ffffff;
+ background-color: #ADFF2F;
+
+ font-size: 2.5vw;
+ font-family: 'Do Hyeon', sans-serif;
+}
+.button-clicked {
+ text-align: center;
+
+ margin: 2%;
+ border: none;
+ padding: 2%;
+ width: 20%;
+
+ transition: all 0.5s;
+ cursor: pointer;
+
+ display: inline-block;
+ border-radius: 4px;
+ /* background-color: #f4511e; */
+ color: #ffffff;
+ background-color: #f4511e;
+
+ font-size: 2.5vw;
+ font-family: 'Do Hyeon', sans-serif;
+}
+.button span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+.button span:after {
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.5s;
+}
+
+.button:hover span {
+ padding-right: 10%;
+}
+
+.button:hover span:after {
+ opacity: 100;
+ right: 0;
+}
+
+.ad-banner{
+ width: 60%;
+ margin : 0 auto;
+}
+
+.footer{
+ margin : 0 auto;
+ text-align : center;
+}
+
+
+
+
+
+
+.news {
+	margin: 5%;
+	padding: 0%;
+	height: 7vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+ color:white;
+ font-size:5vw;
+}
+
+.news-sub {
+	margin: 5%;
+	padding-left: 5%;
+	height: 5vh;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	background-color: #000000;
+ color:white;
+ font-size:3vw;
+ text-align:left;
+}
+
+ .photo-slider {
+	 position: center;
+  max-width:100%;
+  height:auto;
+  margin:5%;
+	/* margin: 0 auto;
+	overflow: hidden;
+	font-size: 0;
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+} 
+/* .photo-slider::before {
+	content: '';
+	position: absolute;
+	z-index: 5;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100px;
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+.photo-slider::after {
+	content: '';
+	position: absolute;
+	z-index: 5;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100px;
+	background: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+.slick-slide {
+	position: relative;
+	z-index: .5;
+	overflow: hidden;
+}
+.slick-slide .photo {
+ position: center;
+	display: block;
+ width: 700px; 
+	margin: 0 auto;
+	overflow: hidden;
+}
+.slick-slide .photo img {
+ position: center;
+	display: block;
+	width: 100%; 
+	transform: scale(1);
+	filter: grayscale(0) brightness(1);
+	transition: .5s ease-in-out;
+}
+.slick-slide:hover .photo img {
+	transform: scale(1.15);
+	filter: grayscale(.8) brightness(.5);
+}
+.slick-slide .text {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	font-family: 'Lora', serif;
+	font-size: 150px;
+	font-weight: 700;
+	color: #9c88ff;
+	white-space: nowrap;
+	mix-blend-mode: difference;
+}
+.slick-arrow {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	width: 80px;
+	height: 80px;
+	font-size: 0;
+	color: #ffffff;
+	background-color: transparent;
+	border-color: #ffffff;
+	border-width: 3px 0;
+	border-radius: 50%;
+	transform: translateY(-50%);
+	outline: none;
+	cursor: pointer;
+}
+.slick-arrow::before,
+.slick-arrow::after {
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+.slick-arrow.slick-prev::before {
+	content: 'Prev';
+}
+.slick-arrow.slick-next::before {
+	content: 'Next';
+}
+.slick-arrow.slick-prev {
+	left: 20px;
+}
+.slick-arrow.slick-next {
+	right: 20px;
+}
+
+*/
+
+.thumbnail-wrappper { width: 25%; } 
+
+.thumbnail { position: relative; padding-top: 2%;padding-bottom: 2%; /* 1:1 ratio */ overflow: hidden;background-color: #F0E68C; } 
+
+.thumbnail .centered { position: absolute; top: 0; left: 0; right: 0; bottom: 0; -webkit-transform: translate(50%,50%); -ms-transform: translate(50%,50%); transform: translate(50%,50%); }
+
+.thumbnail .centered img { position: absolute; top: 0; left: 0; max-width: 100%; height: auto; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+
+출처: https://webdir.tistory.com/487 [WEBDIR]

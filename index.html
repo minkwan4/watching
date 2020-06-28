@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+ <link rel="stylesheet" href="style.css">
+ <title>오정동패거리</title>
+ <!-- Go to www.addthis.com/dashboard to customize your tools -->
+ <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5edcf70ece83d1df"></script>
+ <!-- 파비콘추가 -->
+ <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+ <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+ <!-- 맨위 -->
+ <!-- 광고 -->
+ <div class="ad-banner">
+  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1iv9ax6xswc3d" data-ad-width="320" data-ad-height="100"></ins>
+  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+ </div>
+ <!-- 광고 -->
+
+ <div class="text1">ddd위치확인용ddd</div>
+ <div class="text1">재미로 하는 취미생활 입니당! ^__^<br>
+  ('20.6/21업데이트 : 21대 출석률,법안발의율, 참고기사 모음)</div>
+ <!-- <div class=category>입법부</div> -->
+
+ <div class="categorybox">
+  <button class=button-clicked>
+   <span>
+    <a href="index.html">출석률
+     <br>(20대)</a>
+   </span>
+  </button>
+  <button class=button>
+   <span>
+    <a href="index_next1.html">출석률
+     <br>(21대)</a>
+   </span>
+  </button>
+  <button class=button>
+   <span>
+    <b>
+     <a href="index_next2.html">법안발의율
+      <br>(21대,대표)</a>
+    </b>
+   </span>
+  </button>
+  <button class=button>
+   <span>
+    <b>
+     <a href="index_next3.html">법안발의율
+      <br>(21대,전체)</a>
+    </b>
+   </span>
+  </button>
+  <button class=button>
+   <span><a href="index_next5.html">참고기사
+    <br> 모음</a></span>
+  </button>
+  <button class=button>
+   <span>어? 누가
+    <br> 반대했지?</span>
+  </button>
+  <button class=button>
+   <span>어? 누가
+    <br> 찬성했지?</span>
+  </button>
+  <button class=button>
+   <span>인기투표!<br>KPI평가 </span>
+  </button>
+  <button class=button>
+   <span>주목인물1</span>
+  </button>
+  <button class=button>
+   <span>주목인물2</span>
+  </button>
+  <button class=button>
+   <span>주목인물3</span>
+  </button>
+  <button class=button>
+   <span>주목인물4</span>
+  </button>
+ </div>
+ 
+ 
+
+ <!-- 20대 법안 발의율 worst 5 설명,그래프,내용 -->
+ <div class="text0">20대 국회 출석율 WORST! ('16.5/30~'20.3/17)</div>
+ <div class="text1">어디보자!!! 누가 출근 안하냐?
+  <br>이정도 출석율이면 재적 당해야 하는거 아냐?</div>
+ <div class="text1">나는 회사에서 연차 쓰고 싶다!!!!!</div>
+ <div class="text2">[단위:%],
+  <a href="http://www.peoplepower21.org/Politics/1692685" target="_blank">데이터 참조 : 참여연대</a>
+
+ </div>
+ <div class="container">
+  <canvas id="myChart" width="400" height="400"></canvas>
+ </div>
+ <script>
+  var worst = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(worst, {
+   type: 'bar',
+   data: {
+    labels: ['조원진(자)', '서청원(자)', '한선교(미)', '유승민(미)', '김무성(미)', '정재호(더)', '홍문종(친)'],
+    datasets: [{
+     label: '# of Votes',
+     data: [50, 62, 63, 68, 71, 71, 71],
+     backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(255, 159, 64, 0.2)'
+     ],
+     borderColor: [
+      'rgba(255, 99, 132, 1)',
+      'rgba(54, 162, 235, 1)',
+      'rgba(255, 206, 86, 1)',
+      'rgba(75, 192, 192, 1)',
+      'rgba(153, 102, 255, 1)',
+      'rgba(255, 159, 64, 1)'
+     ],
+     borderWidth: 1,
+    }]
+   },
+   options: {
+    scales: {
+     yAxes: [{
+      ticks: {
+       beginAtZero: true,
+       max: 100,
+       min: 0,
+       fontSize: 14
+      }
+     }],
+     xAxes: [{
+      ticks: {
+       fontSize: 14
+      }
+     }]
+    }
+   }
+  });
+ </script>
+
+ <div class="text3">ddd위치확인용ddd</div>
+
+ <!-- 출석율 best,그래프 설명,그래프,내용 -->
+ <div class="text0">20대 국회 출석률 BEST!</div>
+ <div class="text1">올~ 개근상! 근데 아는 이름이 없네요..미안합니다;;;</div>
+ <div class="text1"></div>
+ <div class="text2">[단위:%],
+  <a href="http://www.peoplepower21.org/Politics/1692685" target="_blank">데이터 참조 : 참여연대</a>
+ </div>
+ <div class="container">
+  <canvas id="myChart2" width="400" height="400"></canvas>
+ </div>
+ <script>
+  var best = document.getElementById('myChart2').getContext('2d');
+  var myChart2 = new Chart(best, {
+   type: 'bar',
+   data: {
+    labels: ['김병욱(더)', '김상희(더)', '김영진(더)', '김정우(더)', '박광온(더)', '박찬대(더)', '박홍근(더)', '백혜련(더)', '송기헌(더)', '유동수(더)'],
+    datasets: [{
+     label: '# of Votes',
+     data: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
+     backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(255, 206, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(255, 159, 64, 0.2)'
+     ],
+     borderColor: [
+      'rgba(255, 99, 132, 1)',
+      'rgba(54, 162, 235, 1)',
+      'rgba(255, 206, 86, 1)',
+      'rgba(75, 192, 192, 1)',
+      'rgba(153, 102, 255, 1)',
+      'rgba(255, 159, 64, 1)'
+     ],
+     borderWidth: 1,
+    }]
+   },
+   options: {
+    scales: {
+     yAxes: [{
+      ticks: {
+       beginAtZero: true,
+       max: 100,
+       min: 0,
+       fontSize: 16
+      }
+     }],
+     xAxes: [{
+      ticks: {
+       fontSize: 14
+      }
+     }]
+    }
+   }
+  });
+ </script>
+
+ <div class="text3">ddd위치확인용ddd</div>
+
+ <!-- Go to www.addthis.com/dashboard to customize your tools -->
+ <div class="addthis_inline_share_toolbox"></div>
+
+ <!-- 디스코스 댓글 -->
+ <div id="disqus_thread"></div>
+ <script>
+  /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+   var d = document,
+    s = d.createElement('script');
+   s.src = 'https://ojeongdongpaemilri.disqus.com/embed.js';
+   s.setAttribute('data-timestamp', +new Date());
+   (d.head || d.body).appendChild(s);
+  })();
+ </script>
+ <noscript>Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+ </noscript>
+ <!-- 디스코스 댓글 -->
+
+ <!-- 광고 -->
+ <div class="ad-banner">
+  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1jyg21s2rqvs2" data-ad-width="320" data-ad-height="100"></ins>
+  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+ </div>
+ <div class="ad-banner">
+  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-rhdco9eovpdf" data-ad-width="320" data-ad-height="100"></ins>
+  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+ </div>
+ <div class="ad-banner">
+  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-urmctnmmj29g" data-ad-width="320" data-ad-height="100"></ins>
+  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+ </div>
+ <!-- 광고 -->
+ 
+ <footer class="footer">&copy; 오정동패거리 OjungdongFamily. All Right Reserved.</footer>
+
+</body>
+
+</html>
