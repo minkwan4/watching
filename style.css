@@ -5,7 +5,7 @@ body {
 }
 
 .text0 {
- font-size: 3vw;
+ font-size: 5vw;
  text-align: center;
  padding: 1vw;
 
@@ -76,7 +76,7 @@ div {
  padding: 3%;
  border: 1px solid black;
  /* width: 70%; */
- margin: 10%;
+ margin: 1%;
 }
 
 .button {
@@ -304,3 +304,4 @@ div {
 .thumbnail .centered img { position: absolute; top: 0; left: 0; max-width: 100%; height: auto; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
 
 출처: https://webdir.tistory.com/487 [WEBDIR]
+
