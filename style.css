@@ -190,7 +190,7 @@ div {
 
  .photo-slider {
 	 position: center;
-  max-width:100%;
+  max-width:90%;
   height:auto;
   margin:5%;
 	/* margin: 0 auto;
@@ -294,7 +294,7 @@ div {
 
 */
 
-.thumbnail-wrappper { width: 25%; } 
+.thumbnail-wrappper { width: 100%; } 
 
 
 .thumbnail { position: relative; padding-top: 2%;padding-bottom: 2%; /* 1:1 ratio */ overflow: hidden;background-color: #F8F8FF; } 
@@ -304,4 +304,7 @@ div {
 .thumbnail .centered img { position: absolute; top: 0; left: 0; max-width: 100%; height: auto; -webkit-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
 
 출처: https://webdir.tistory.com/487 [WEBDIR]
+
+
+.image2 { width: 500px; } 
 
