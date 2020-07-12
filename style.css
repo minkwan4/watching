@@ -308,3 +308,54 @@ div {
 
 .image2 { width: 500px; } 
 
+.accordion{
+ position:relative;
+ padding-left:5%;
+}
+
+input[id*="review"]{
+ display:none;
+}
+
+input[id*="review"] + label{
+
+ display:block;
+ width:80%;
+ padding:2%;
+ border:1px solid #fff;
+ border-bottom:0;
+ color:#fff;
+ font-weight:900;
+ background:#3634a5;
+ cursor:pointer;
+ position:relative;
+ font-size:2.5vw;
+ text-align:left;
+}
+
+input[id*="review"] + label +div{
+ 
+ max-height:0;
+ transition: all .35s;
+ overflow:hidden;
+ background:#ebf8ff;
+ font-size:2.5vw;
+ text-align:left;
+
+}
+
+/* input[id*="review"] + label + div p{
+ display:block;
+ padding:2.5vw;
+ text-align:left;
+ overflow:;
+ 
+} */
+
+input[id*="review"]:checked + label + div{
+ max-height:500px;
+ width:80%;
+ position:relative;
+  padding:2%;
+
+}
