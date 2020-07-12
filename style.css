@@ -353,7 +353,7 @@ input[id*="review"] + label +div{
 } */
 
 input[id*="review"]:checked + label + div{
- max-height:500px;
+ max-height:5000px;
  width:80%;
  position:relative;
   padding:2%;
