@@ -82,7 +82,7 @@
 
  <!-- 20대 법안 발의율 worst 5 설명,그래프,내용 -->
  <div class="text0">21대 국회 법안 대표 발의율 Worst!</div>
- <div class="text1">93분이 대표발의를 한 건도 안 함!</div>
+ <div class="text1">70분이 대표발의를 한 건도 안 함!</div>
  <div class="text1"></div>
  <div class="text2">[단위:건수],
   <a href="https://open.assembly.go.kr/portal/mainPage.do" target="_blank">데이터 참조 : 열린국회정보 본회의 회의록</a>
@@ -160,10 +160,10 @@
   var myChart2 = new Chart(best, {
    type: 'bar',
    data: {
-    labels: ['박용진(더)','송옥주(더)','기동민(더)','이정문(더)','정춘숙(더)','정청래(더)','신동근(더)','태영호(미)','백혜련(더)'],
+    labels: ['박용진(더)','송옥주(더)','정춘숙(더)','기동민(더)','이정문(더)','정청래(더)','박정(더)','태영호(미)'],
     datasets: [{
      label: '# of Votes',
-     data: [52,45,24,23,23,18,15,15,14],
+     data: [52,51,31,24,23,20,18,18],
      backgroundColor: [
       'rgba(255, 99, 132, 0.2)',
       'rgba(54, 162, 235, 0.2)',
@@ -188,7 +188,7 @@
      yAxes: [{
       ticks: {
        beginAtZero: true,
-       max: 30,
+       max: 60,
        min: 0,
        fontSize: 16
       }
