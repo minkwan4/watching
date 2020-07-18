@@ -360,7 +360,7 @@ input[id*="review"]:checked + label + div{
 
 }
 
-.articletitle01{
+.articletitle000{
  width:80%;
  height:50vw;
  margin:5%;
@@ -371,11 +371,23 @@ input[id*="review"]:checked + label + div{
  /* background-color: rgba(0,0,0,0.4); */
 }
 
-.articletitle01 .imagetext0{
-     padding-top:3%;                                                           
-     font-size:2.2vw;
+.imagetext000{
+     padding-top:3%;  
+     padding-left:3%;
+     font-size:4vw;
      color: white;
+     text-align:left;
+}
 
+.articletitle001{
+ width:80%;
+ height:50vw;
+ margin:5%;
+ background-size:cover;
+ background-image: url("image/image6.jpg");
+ background-repeat:no-repeat;
+ background-position: center;
+ /* background-color: rgba(0,0,0,0.4); */
 }
 
 
