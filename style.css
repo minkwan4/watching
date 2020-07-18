@@ -2,6 +2,16 @@
 
 body {
  font-family: 'Do Hyeon', sans-serif;
+ 
+}
+
+p {
+ text-align: center;
+ color:#2B1D1D;
+}
+div {
+ text-align: center;
+ color:#2B1D1D;
 }
 
 .text0 {
@@ -56,12 +66,7 @@ body {
 }
 
 
-p {
- text-align: center;
-}
-div {
- text-align: center;
-}
+
 
 .category {
  text-align: center;
@@ -417,4 +422,35 @@ input[id*="review"]:checked + label + div{
  font-size:5vw;
 }
 
+.wrapper{
+ display:block;
+ margin-top:5%;
+ padding:3%;
+ /* border:2px solid black; */
+ font-size:5vw;
+}
 
+.wrap_content{
+ display:block;
+ margin-top:5%;
+ padding:2%;
+ border:3px solid black;
+ text-decoration:none;
+ 
+}
+
+.wrap_subtitle{
+ font-size:3vw;
+ margin-left:-40%;
+ /* text-align:left; */
+ 
+}
+
+.wrap_explain{
+ font-size:2vw;
+ /* padding:5%; */
+ /* margin-left:-40%; */
+ text-align:left;
+ line-height:2.5vw;
+ 
+}
