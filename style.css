@@ -359,3 +359,23 @@ input[id*="review"]:checked + label + div{
   padding:2%;
 
 }
+
+.articletitle01{
+ width:80%;
+ height:50vw;
+ margin:5%;
+ background-size:cover;
+ background-image: url("image/image5.jpg");
+ background-repeat:no-repeat;
+ background-position: center;
+ /* background-color: rgba(0,0,0,0.4); */
+}
+
+.articletitle01 .imagetext0{
+     padding-top:3%;                                                           
+     font-size:2.2vw;
+     color: white;
+
+}
+
+
