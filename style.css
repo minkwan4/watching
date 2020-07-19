@@ -348,7 +348,18 @@ input[id*='review']:checked + label + div {
  position: relative;
  padding: 2%;
 }
-
+/* 회의록리뷰 */
+.linktext000 {
+ text-decoration: none;
+}
+/* 회의록리뷰 */
+.imagetext000 {
+ padding-top: 3%;
+ padding-left: 3%;
+ font-size: 4vw;
+ color: white;
+ text-align: left;
+}
 /* 회의록리뷰 */
 .articletitle000 {
  width: 80%;
@@ -359,14 +370,6 @@ input[id*='review']:checked + label + div {
  background-repeat: no-repeat;
  background-position: center;
  /* background-color: rgba(0,0,0,0.4); */
-}
-/* 회의록리뷰 */
-.imagetext000 {
- padding-top: 3%;
- padding-left: 3%;
- font-size: 4vw;
- color: white;
- text-align: left;
 }
 /* 회의록리뷰 */
 .articletitle001 {
@@ -380,18 +383,27 @@ input[id*='review']:checked + label + div {
  /* background-color: rgba(0,0,0,0.4); */
 }
 /* 회의록리뷰 */
-.imagetext001 {
- padding-top: 3%;
- padding-left: 3%;
- font-size: 4vw;
- color: white;
- text-align: left;
+.articletitle002 {
+ width: 80%;
+ height: 50vw;
+ margin: 5%;
+ background-size: cover;
+ background-image: url('image/image7.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ /* background-color: rgba(0,0,0,0.4); */
+}
+.articletitle003 {
+ width: 80%;
+ height: 50vw;
+ margin: 5%;
+ background-size: cover;
+ background-image: url('image/image8.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ /* background-color: rgba(0,0,0,0.4); */
 }
 
-/* 회의록리뷰 */
-.linktext000 {
- text-decoration: none;
-}
 /* 회의록리뷰 - 기사 */
 .buttondeco000 {
  position: relative;
@@ -401,3 +413,8 @@ input[id*='review']:checked + label + div {
  font-size: 5vw;
 }
 
+/* 회의록리뷰 - 기사 */
+.articleimage {
+ width: 90%;
+
+}
