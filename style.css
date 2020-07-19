@@ -40,10 +40,10 @@ div {
  margin-left: 5%;
 }
 .text11 {
- font-size: 2.5vw;
+ font-size: 2vw;
  text-align: left;
  padding: 1vw;
- margin-left: 5%;
+ margin-left: 1%;
 }
 .text11a {
  font-size: 2.5vw;
@@ -353,6 +353,12 @@ input[id*='review']:checked + label + div {
  position: relative;
  padding: 2%;
 }
+
+.survey{
+ width:100%;
+ height:auto;
+}
+
 /* 회의록리뷰 */
 .linktext000 {
  text-decoration: none;

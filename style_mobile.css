@@ -18,29 +18,29 @@ div {
  padding: 5vw;
 }
 .text1 {
- font-size: 2.5vw;
+ font-size: 5vw;
  text-align: center;
  padding: 1vw;
 }
 .text2 {
- font-size: 2vw;
+ font-size: 4vw;
  text-align: center;
  padding: 1vw;
 }
 .text3 {
- font-size: 1.5vw;
+ font-size: 3vw;
  text-align: center;
  padding: 1vw;
 }
 
 .text01 {
- font-size: 3vw;
+ font-size: 4vw;
  text-align: left;
  padding: 1vw;
  margin-left: 5%;
 }
 .text11 {
- font-size: 2.5vw;
+ font-size: 3.5vw;
  text-align: left;
  padding: 1vw;
  margin-left: 5%;
@@ -202,7 +202,7 @@ div {
  padding: 0%;
  padding-top: 1%;
  padding-bottom: 1%;
- height: 7vh;
+ height: 5vh;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -212,17 +212,17 @@ div {
 }
 /* 참고기사 */
 .news-sub {
- margin: 3%;
+ margin: 5%;
  padding-left: 3%;
  padding-top: 1%;
  padding-bottom: 1%;
- height: 5vh;
+ height: 3vh;
  display: flex;
  justify-content: left;
  align-items: center;
  background-color: #90ee90;
  color: black;
- font-size: 3vw;
+ font-size: 4vw;
  text-align: left;
 }
 /* 참고기사 */
@@ -336,7 +336,7 @@ input[id*='review']:checked + label + div {
 }
 /* 회의록리뷰 */
 .articletitle000 {
- width: 80%;
+ width: 90%;
  height: 50vw;
  margin: 5%;
  background-size: cover;
@@ -347,7 +347,7 @@ input[id*='review']:checked + label + div {
 }
 /* 회의록리뷰 */
 .articletitle001 {
- width: 80%;
+ width: 90%;
  height: 50vw;
  margin: 5%;
  background-size: cover;
@@ -358,7 +358,7 @@ input[id*='review']:checked + label + div {
 }
 /* 회의록리뷰 */
 .articletitle002 {
- width: 80%;
+ width: 90%;
  height: 50vw;
  margin: 5%;
  background-size: cover;
@@ -368,7 +368,7 @@ input[id*='review']:checked + label + div {
  /* background-color: rgba(0,0,0,0.4); */
 }
 .articletitle003 {
- width: 80%;
+ width: 90%;
  height: 50vw;
  margin: 5%;
  background-size: cover;
