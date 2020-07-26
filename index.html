@@ -1,197 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="fNPHNoeB1f7aOKpdID4vW4eBevSVR49pBSE8pCHsdNo" />
+  <meta name="naver-site-verification" content="d0d665f410edc0dd3f46107c4ecd53479c9ddffb" />
+  <link rel="canonical" href="https://watchingndistribute.netlify.app/index.html" />
+  <meta name="description" lang="ko" content="국회의원 모니터링" />
+  <meta property="og:title" content="국회의원 모니터링" />
+  <meta property="og:description" content="국회의원 모니터링" />
+  <meta name="viewport" content="width=device-width initial-scale=1.0" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="(max-width:420px)" href="style_mobile.css" />
+  <title>국회의원 모니터링</title>
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script
+   type="text/javascript"
+   src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5edcf70ece83d1df"
+  ></script>
+  <!-- 파비콘추가 -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+ </head>
 
-<head>
- <meta charset="UTF-8">
- <meta name="google-site-verification" content="fNPHNoeB1f7aOKpdID4vW4eBevSVR49pBSE8pCHsdNo" />
- <meta name="naver-site-verification" content="d0d665f410edc0dd3f46107c4ecd53479c9ddffb" />
- <link rel="canonical" href="https://watchingndistribute.netlify.app/index.html"/>
- <meta name="description" lang="ko" content="국회의원 모니터링"/>
- <meta property="og:title" content="국회의원 모니터링"/>
- <meta property="og:description" content="국회의원 모니터링"/>
- <meta name="viewport" content="width=device-width initial-scale=1.0">
- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" media="(max-width:420px)" href="style_mobile.css">
- <title>국회의원 모니터링</title>
- <!-- Go to www.addthis.com/dashboard to customize your tools -->
- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5edcf70ece83d1df"></script>
- <!-- 파비콘추가 -->
- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
- <link rel="icon" href="/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-
- <!-- 맨위 -->
- <!-- 광고 -->
- <div class="ad-banner">
-  <ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-1iv9ax6xswc3d" 
- data-ad-width   = "320" 
- data-ad-height  = "100"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+ <body>
+  <!-- 맨위 -->
+  <!-- 광고 -->
+  <div class="ad-banner">
+   <ins
+    class="kakao_ad_area"
+    style="display: none;"
+    data-ad-unit="DAN-1iv9ax6xswc3d"
+    data-ad-width="320"
+    data-ad-height="100"
+   ></ins>
+   <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
   </div>
- <!-- 광고 -->
+  <!-- 광고 -->
 
- <div class="text0">국회의원 모니터링(7.26)</div>
+  <div class="text0">국회의원 모니터링(7.26)</div>
 
- <!-- <div class=category>입법부</div> -->
+  <!-- <div class=category>입법부</div> -->
 
- <div class="categorybox">
-  <button class=button-clicked>
-   <span>
-    <a href="index.html">시작페이지</a>
-   </span>
-  </button>
-  <button class=button>
-   <span>
-    <a href="index_next1.html">출석률
-     <br>(21대)</a>
-   </span>
-  </button>
-  <button class=button>
-   <span>
-    <b>
-     <a href="index_next2.html">법안발의율
-      <br>(21대,대표)</a>
-    </b>
-   </span>
-  </button>
-  <button class=button>
-   <span>
-    <b>
-     <a href="index_next3.html">법안발의율
-      <br>(21대,전체)</a>
-    </b>
-   </span>
-  </button>
-  <button class=button>
-   <span><a href="index_next5.html">참고기사
-    <br> 모음</a></span>
-  </button>
-  <button class=button>
-   <span><a href="index_next6.html">어? 누가
-    <br> 반대했지?</a></span>
-  </button>
-  <button class=button>
-   <span><a href="index_next7.html">어? 누가
-    <br> 찬성했지?</a></span>
-  </button>
-  
-  <button class=button>
-   <span><a href="index_next8.html">인기투표!<br>KPI평가</a></span></button>
-   
-  <button class=button>
-   <span><a href="index_next9.html">주목인물1</a></span>
-  </button>
-  <button class=button>
-   <span><a href="index_next10.html">주목인물2</a></span>
-  </button>
-  <button class=button>
-   <span><a href="index_next11.html">주목인물3</a></span>
-  </button>
-  <button class=button>
-   <span><a href="index_next12.html">회의록 리뷰</a></span>
-  </button>
- </div>
+  <div class="categorybox">
+   <button class="button-clicked">
+    <span>
+     <a href="index.html">시작페이지</a>
+    </span>
+   </button>
+   <button class="button">
+    <span>
+     <a href="index_next1.html">출석률 <br />(21대)</a>
+    </span>
+   </button>
+   <button class="button">
+    <span>
+     <b>
+      <a href="index_next2.html">법안발의율 <br />(21대,대표)</a>
+     </b>
+    </span>
+   </button>
+   <button class="button">
+    <span>
+     <b>
+      <a href="index_next3.html">법안발의율 <br />(21대,전체)</a>
+     </b>
+    </span>
+   </button>
+   <button class="button">
+    <span
+     ><a href="index_next5.html"
+      >참고기사 <br />
+      모음</a
+     ></span
+    >
+   </button>
+   <button class="button">
+    <span
+     ><a href="index_next6.html"
+      >어? 누가 <br />
+      반대했지?</a
+     ></span
+    >
+   </button>
+   <button class="button">
+    <span
+     ><a href="index_next7.html"
+      >어? 누가 <br />
+      찬성했지?</a
+     ></span
+    >
+   </button>
 
- <div class="wrapper"> 최근 업데이트
-  
-  <a class="wrap_content" href="index_next12_article004.html">
-   <strong class="wrap_subtitle">상임위 공부하기 1탄!</strong>
-   <p class="wrap_explain">법제사법위원회! 법사위원장이 그렇게 대단함?<br>
-   #법제사법위원회 #법사위 #여상규 #박주민 #장제원 #김진애 </p>
-                          </a>
-  
-  <a class="wrap_content" href="index_next12_article002.html">
-   <strong class="wrap_subtitle">7/16 개회식 리뷰!</strong>
-   <p class="wrap_explain">의장님 개회사와 대통령님 연설! <br>
-   #박병석 #문재인 #개회식 #부동산 #남북관계 #공수처 </p>
-                          </a>
-  
+   <button class="button">
+    <span
+     ><a href="index_next8.html">인기투표!<br />KPI평가</a></span
+    >
+   </button>
+
+   <button class="button">
+    <span><a href="index_next9.html">주목인물1</a></span>
+   </button>
+   <button class="button">
+    <span><a href="index_next10.html">주목인물2</a></span>
+   </button>
+   <button class="button">
+    <span><a href="index_next11.html">주목인물3</a></span>
+   </button>
+   <button class="button">
+    <span><a href="index_next12.html">회의록 리뷰</a></span>
+   </button>
+  </div>
+
+  <div class="wrapper">
+   최근 업데이트
+
+   <a class="wrap_content" href="index_next12_article006.html">
+    <strong class="wrap_subtitle">주호영 원내대표 연설(7/21)</strong>
+    <p class="wrap_explain">
+     전체주의, 안보, 자존심, 자해<br />
+     #주호영
+    </p>
+   </a>
+
+   <a class="wrap_content" href="index_next12_article005.html">
+    <strong class="wrap_subtitle">김태년 원내대표 연설(7/20)</strong>
+    <p class="wrap_explain">
+     뉴딜(일자리,안전망), 행정수도, 평화, 일하는 국회법, 공수처<br />
+     #김태년
+    </p>
+   </a>
+
+   <a class="wrap_content" href="index_next12_article004.html">
+    <strong class="wrap_subtitle">상임위 공부하기 1탄!</strong>
+    <p class="wrap_explain">
+     법제사법위원회! 법사위원장이 그렇게 대단함?<br />
+     #법제사법위원회 #법사위 #여상규 #박주민 #장제원 #김진애
+    </p>
+   </a>
+
+   <a class="wrap_content" href="index_next12_article002.html">
+    <strong class="wrap_subtitle">7/16 개회식 리뷰!</strong>
+    <p class="wrap_explain">
+     의장님 개회사와 대통령님 연설! <br />
+     #박병석 #문재인 #개회식 #부동산 #남북관계 #공수처
+    </p>
+   </a>
+
    <a class="wrap_content" href="index_next12_article001.html">
-   <strong class="wrap_subtitle">예결심의(7.3 379회7회차) 본회의록 리뷰!</strong>
-   <p class="wrap_explain">7월3일 실시된 379회 7회차 본회의,,이날은 3차 추경에 대한 투표가 있는날.<br> 과연 대한민국 21대 국회의 3차 추경 투표가 있던날 무슨 말들이 오고 갔을까? <br>
-   #이종배 #배진교 #박홍근 #3차추경 </p>
-                          </a>
-  
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  <section class="wrap_content">
-  </section>
-  
- </div>
- 
- <div class="text3">ddd위치확인용ddd</div>
+    <strong class="wrap_subtitle">예결심의(7.3 379회7회차) 본회의록 리뷰!</strong>
+    <p class="wrap_explain">
+     7월3일 실시된 379회 7회차 본회의,,이날은 3차 추경에 대한 투표가 있는날.<br />
+     과연 대한민국 21대 국회의 3차 추경 투표가 있던날 무슨 말들이 오고 갔을까? <br />
+     #이종배 #배진교 #박홍근 #3차추경
+    </p>
+   </a>
 
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+   <section class="wrap_content"></section>
+  </div>
 
- <!-- Go to www.addthis.com/dashboard to customize your tools -->
- <div class="share">
-  <div class="addthis_inline_share_toolbox"></div>
- </div>
- 
+  <div class="text3">ddd위치확인용ddd</div>
 
- <!-- 디스코스 댓글 -->
- <div id="disqus_thread"></div>
- <script>
-  /**
-   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <div class="share">
+   <div class="addthis_inline_share_toolbox"></div>
+  </div>
+
+  <!-- 디스코스 댓글 -->
+  <div id="disqus_thread"></div>
+  <script>
+   /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+   /*
   var disqus_config = function () {
   this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
   };
   */
-  (function() { // DON'T EDIT BELOW THIS LINE
-   var d = document,
-    s = d.createElement('script');
-   s.src = 'https://ojeongdongpaemilri.disqus.com/embed.js';
-   s.setAttribute('data-timestamp', +new Date());
-   (d.head || d.body).appendChild(s);
-  })();
- </script>
- <noscript>Please enable JavaScript to view the
-  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
- </noscript>
- <!-- 디스코스 댓글 -->
+   (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+     s = d.createElement('script');
+    s.src = 'https://ojeongdongpaemilri.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+   })();
+  </script>
+  <noscript
+   >Please enable JavaScript to view the
+   <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  <!-- 디스코스 댓글 -->
 
- <!-- 광고 -->
- <div class="ad-banner">
-  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1jyg21s2rqvs2" data-ad-width="320" data-ad-height="100"></ins>
-  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
- </div>
- <div class="ad-banner">
-  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-rhdco9eovpdf" data-ad-width="320" data-ad-height="100"></ins>
-  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
- </div>
- <div class="ad-banner">
-  <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-urmctnmmj29g" data-ad-width="320" data-ad-height="100"></ins>
-  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
- </div>
- <!-- 광고 -->
- 
- <footer class="footer">&copy; 오정동패거리 OjungdongFamily. All Right Reserved.</footer>
+  <!-- 광고 -->
+  <div class="ad-banner">
+   <ins
+    class="kakao_ad_area"
+    style="display: none;"
+    data-ad-unit="DAN-1jyg21s2rqvs2"
+    data-ad-width="320"
+    data-ad-height="100"
+   ></ins>
+   <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  </div>
+  <div class="ad-banner">
+   <ins
+    class="kakao_ad_area"
+    style="display: none;"
+    data-ad-unit="DAN-rhdco9eovpdf"
+    data-ad-width="320"
+    data-ad-height="100"
+   ></ins>
+   <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  </div>
+  <div class="ad-banner">
+   <ins
+    class="kakao_ad_area"
+    style="display: none;"
+    data-ad-unit="DAN-urmctnmmj29g"
+    data-ad-width="320"
+    data-ad-height="100"
+   ></ins>
+   <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  </div>
+  <!-- 광고 -->
 
-</body>
-
+  <footer class="footer">&copy; 오정동패거리 OjungdongFamily. All Right Reserved.</footer>
+ </body>
 </html>
