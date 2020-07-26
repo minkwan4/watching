@@ -414,6 +414,16 @@ input[id*='review']:checked + label + div {
  background-position: center;
  /* background-color: rgba(0,0,0,0.4); */
 }
+.articletitle004 {
+ width: 80%;
+ height: 50vw;
+ margin: 5%;
+ background-size: cover;
+ background-image: url('image/image15.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ /* background-color: rgba(0,0,0,0.4); */
+}
 
 /* 회의록리뷰 - 기사 */
 .buttondeco000 {
