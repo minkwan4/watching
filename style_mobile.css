@@ -194,24 +194,24 @@ div {
 }
 /* 메인페이지 */
 .wrap_explain_devide_left {
- font-size: 2vw;
+ font-size: 3vw;
  margin-left:5%;
  /* padding:5%; */
  /* margin-left:-40%; */
  text-align: left;
- line-height: 2.5vw;
+ line-height: 3vw;
  
  width:35%;
  float:left;
 }
 /* 메인페이지 */
 .wrap_explain_devide_right {
- font-size: 2vw;
+ font-size: 3vw;
  margin-left:5%;
  /* padding:5%; */
  /* margin-left:-40%; */
  text-align: left;
- line-height: 2.5vw;
+ line-height: 3vw;
  
  width:50%;
  float:right;
