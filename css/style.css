@@ -50,7 +50,7 @@ div {
  text-align: left;
  /* padding: 1vw; */
  /* margin-left: 5%; */
- color:blue;
+ color: blue;
 }
 
 .text21 {
@@ -94,7 +94,17 @@ div {
  /* width: 70%; */
  margin: 1%;
 }
-
+/* 전체메뉴 */
+.categorybox_mobile {
+ display:none;
+ text-align: center;
+ padding: 0%;
+ border: 0px solid black;
+ /* width: 70%; */
+ margin: 0%;
+ width:100%;
+ height:10vw;
+}
 /* 전체메뉴 */
 .button {
  text-align: center;
@@ -139,8 +149,6 @@ div {
  font-family: 'Do Hyeon', sans-serif;
 }
 
-
-
 /* 전체메뉴 */
 .button span {
  cursor: pointer;
@@ -169,12 +177,10 @@ div {
 
 /* 배너 */
 .ad-banner {
-
  margin: 0 auto;
-
 }
 
-.share{
+.share {
  /* height:10vw; */
 }
 
@@ -192,7 +198,7 @@ div {
  padding-right: 10%;
  /* border:2px solid black; */
  font-size: 5vw;
- width:80%;
+ width: 80%;
 }
 /* 메인페이지 */
 .wrap_content {
@@ -211,7 +217,7 @@ div {
 /* 메인페이지 */
 .wrap_explain {
  font-size: 2vw;
- margin-left:10%;
+ margin-left: 10%;
  /* padding:5%; */
  /* margin-left:-40%; */
  text-align: left;
@@ -221,40 +227,39 @@ div {
 .wrap_explain_devide {
  width: 100%;
  height: 10vw;
-
 }
 /* 메인페이지 */
 .wrap_explain_devide_left {
  font-size: 2vw;
- margin-left:10%;
+ margin-left: 10%;
  /* padding:5%; */
  /* margin-left:-40%; */
  text-align: left;
  line-height: 2.5vw;
- 
- width:30%;
- float:left;
+
+ width: 30%;
+ float: left;
 }
 /* 메인페이지 */
 .wrap_explain_devide_right {
  font-size: 2vw;
- margin-left:10%;
+ margin-left: 10%;
  /* padding:5%; */
  /* margin-left:-40%; */
  text-align: left;
  line-height: 2.5vw;
- 
- width:50%;
- float:right;
+
+ width: 50%;
+ float: right;
 }
 
 /* 출석률 next1*/
-.container{
- display:block;
- position:relative;
- width:80%;
- margin-left:10%;
- margin-right:10%;
+.container {
+ display: block;
+ position: relative;
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
 }
 
 /* 참고기사 */
@@ -292,7 +297,6 @@ div {
  max-width: 90%;
  height: auto;
  margin: 5%;
-
 }
 /* 참고기사 */
 .thumbnail-wrappper {
@@ -384,9 +388,9 @@ input[id*='review']:checked + label + div {
  padding: 2%;
 }
 
-.survey{
- width:100%;
- height:auto;
+.survey {
+ width: 100%;
+ height: auto;
 }
 
 /* 회의록리뷰 */
@@ -407,7 +411,7 @@ input[id*='review']:checked + label + div {
  height: 50vw;
  margin: 5%;
  background-size: cover;
- background-image: url('image/image5.jpg');
+ background-image: url('/image/image5.jpg');
  background-repeat: no-repeat;
  background-position: center;
  /* background-color: rgba(0,0,0,0.4); */
@@ -499,5 +503,4 @@ input[id*='review']:checked + label + div {
 /* 회의록리뷰 - 기사 */
 .articleimage {
  width: 90%;
-
 }
