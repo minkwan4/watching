@@ -43,7 +43,8 @@ div {
  font-size: 3.5vw;
  text-align: left;
  padding: 1vw;
- margin-left: 5%;
+ margin-left: 3%;
+ margin-right: 3%;
 }
 .text11a {
  font-size: 2.5vw;
@@ -51,6 +52,21 @@ div {
  /* padding: 1vw; */
  /* margin-left: 5%; */
  color:blue;
+}
+.text11b {
+ font-size: 3.5vw;
+ text-align: left;
+ /* padding: 1vw; */
+ /* margin-left: 5%; */
+ color:blue;
+}
+
+.text11c {
+ font-size: 3.5vw;
+ text-align: left;
+ /* padding: 1vw; */
+ /* margin-left: 5%; */
+ color: #707070;
 }
 
 .text21 {

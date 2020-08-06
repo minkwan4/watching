@@ -52,6 +52,30 @@ div {
  /* margin-left: 5%; */
  color: blue;
 }
+.text11b {
+ font-size: 2vw;
+ text-align: left;
+ /* padding: 1vw; */
+ /* margin-left: 5%; */
+ color: blue;
+}
+
+.text11c {
+ font-size: 2vw;
+ text-align: left;
+ /* padding: 1vw; */
+ /* margin-left: 5%; */
+ color: #707070;
+}
+.text11z {
+ font-size: 10vw;
+ text-align: center;
+ /* padding: 1vw; */
+ /* margin-left: 5%; */
+ color: #707070;
+}
+
+
 
 .text21 {
  font-size: 2vw;
@@ -503,4 +527,10 @@ input[id*='review']:checked + label + div {
 /* 회의록리뷰 - 기사 */
 .articleimage {
  width: 90%;
+}
+/* 회의록리뷰 - 기사 */
+.addimage {
+ display:block;
+    max-width: 70%;
+    height: auto;
 }
